@@ -55,7 +55,7 @@ function BackgroundSync(logger, config, store, githubClient, githubApp, events) 
     log.warn(`
 Configuring repositories via wuffle.config.js got removed, please update your config.
 
-We automatically synchronize all repositories you granted us access to via the GitHub app.
+We automatically synchronize all repositories you granted us access to via the GitHub app (https://github.com/settings/installations).
 `
     );
   }
